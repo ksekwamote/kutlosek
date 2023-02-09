@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Koding 101 Online</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+  </head>
+
+  <body class="hidden-bar-wrapper">
+    <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="preloader">
+        <span></span>
+      </div>
+
+      <!-- Main Header -->
+      <header class="main-header">
+        <!-- Header Lower -->
+        <div class="header-lower">
+          <div class="auto-container">
+            <div
+              class="inner-container d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="logo-box">
+                <div class="logo">
+                  <a href><img src="images/logo.png" alt title /></a>
+                </div>
+              </div>
+              <div class="nav-outer d-flex align-items-center flex-wrap">
+                <!-- Mobile Navigation Toggler -->
+                <div class="mobile-nav-toggler">
+                  <span class="icon flaticon-menu"></span>
+                </div>
+                <!-- Main Menu -->
+                <nav class="main-menu show navbar-expand-md">
+                  <div class="navbar-header">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+
+                  <div
+                    class="navbar-collapse collapse clearfix"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navigation clearfix">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#whyUs">Why Us</a>
+                      </li>
+                      <li>
+                        <a href="#courses">Courses</a>
+                      </li>
+                      <li>
+                        <a href="#freeLearning">Free Learning</a>
+                      </li>
+                      <li>
+                        <a href="#articles">Articles</a>
+                      </li>
+                      <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <!-- Main Menu End-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Header Lower -->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+          <div
+            class="auto-container d-flex justify-content-between align-items-center flex-wrap"
+          >
+            <!-- Logo -->
+            <div class="logo">
+              <a href title><img src="images/logo.png" alt title /></a>
+            </div>
+
+            <!-- Main Menu -->
+            <nav class="main-menu">
+              <!--Keep This Empty / Menu will come through Javascript-->
+            </nav>
+            <!-- Main Menu End-->
+
+            <!-- Mobile Navigation Toggler -->
+            <div class="mobile-nav-toggler">
+              <span class="icon flaticon-menu"></span>
+            </div>
+          </div>
+        </div>
+        <!-- End Sticky Menu -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+          <div class="menu-backdrop"></div>
+          <div class="close-btn">
+            <span class="icon flaticon-cancel"></span>
+          </div>
+
+          <nav class="menu-box">
+            <div class="nav-logo">
+              <a href><img src="images/logo.png" alt title /></a>
+            </div>
+            <div class="menu-outer">
+              <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
+          </nav>
+        </div>
+        <!-- End Mobile Menu -->
+      </header>
+      <!-- End Main Header -->
+
+      <!-- Main Slider Section -->
+      <section class="main-slider">
+        <div
+          class="pattern-one"
+          style="background-image: url(images/main-slider/pattern-1.png)"
+        ></div>
+        <div
+          class="pattern-two"
+          style="background-image: url(images/main-slider/pattern-2.png)"
+        ></div>
+        <div
+          class="pattern-three"
+          style="background-image: url(images/main-slider/pattern-3.png)"
+        ></div>
+        <div
+          class="pattern-four"
+          style="background-image: url(images/main-slider/pattern-4.png)"
+        ></div>
+        <div
+          class="icon-one"
+          style="background-image: url(images/main-slider/icon-1.png)"
+        ></div>
+        <div
+          class="icon-two"
+          style="background-image: url(images/main-slider/icon-2.png)"
+        ></div>
+        <div class="main-slider-carousel owl-carousel owl-theme">
+          <!-- Slide -->
+          <div class="slide">
+            <div class="auto-container">
+              <div class="row clearfix">
+                <!-- Content Column -->
+                <div class="content-column col-lg-7 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <h1>Get Live 1:1 Coding Help and Mentorship</h1>
+                    <div class="buttons-box">
+                      <a href="contact.html" class="theme-btn btn-style-two"
+                        ><span class="txt">Get Help NOW</span></a
+                      >
+                      <a href="contact.html" class="theme-btn btn-style-three"
+                        ><span class="txt">Hire For Project</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <div class="row clearfix">
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online1.jpg" alt />
+                        </div>
+                      </div>
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online2.jpg" alt />
+                        </div>
+                        <div class="image">
+                          <img src="images/hero/online4.jpg" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide -->
+          <div class="slide">
+            <div class="auto-container">
+              <div class="row clearfix">
+                <!-- Content Column -->
+                <div class="content-column col-lg-7 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <h1>Get a more personalized learning experience</h1>
+                    <div class="buttons-box">
+                      <a href="contact.html" class="theme-btn btn-style-two"
+                        ><span class="txt">Get Help NOW</span></a
+                      >
+                      <a href="contact.html" class="theme-btn btn-style-three"
+                        ><span class="txt">Hire A Developer</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <div class="row clearfix">
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online7.jpg" alt />
+                        </div>
+                      </div>
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online9.jpg" alt />
+                        </div>
+                        <div class="image">
+                          <img src="images/hero/online10.jpg" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide -->
+          <div class="slide">
+            <div class="auto-container">
+              <div class="row clearfix">
+                <!-- Content Column -->
+                <div class="content-column col-lg-7 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <h1>Hire an experienced developer for a coding project</h1>
+                    <div class="buttons-box">
+                      <a href="contact.html" class="theme-btn btn-style-two"
+                        ><span class="txt">Get Help NOW</span></a
+                      >
+                      <a href="contact.html" class="theme-btn btn-style-three"
+                        ><span class="txt">Hire A Developer</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                  <div class="inner-column">
+                    <div class="row clearfix">
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online12.jpg" alt />
+                        </div>
+                      </div>
+                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                        <div class="image">
+                          <img src="images/hero/online2.jpg" alt />
+                        </div>
+                        <div class="image">
+                          <img src="images/hero/online5.jpg" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Main Slider Section -->
+
+      <!-- Featured Section -->
+      <section class="featured-section">
+        <div class="auto-container">
+          <div class="inner-container">
+            <div class="row clearfix">
+              <!-- Feature Block -->
+              <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                <div
+                  class="inner-box wow fadeInLeft"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div class="icon flaticon-book"></div>
+                  <h4>
+                    <a>Develop your technical skills</a>
+                  </h4>
+                  <div class="text">
+                    Unlock endless opportunities and advance your career
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature Block -->
+              <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                <div
+                  class="inner-box wow fadeInUp"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div class="icon flaticon-identification"></div>
+                  <h4>
+                    <a>Learn to navigate the tech industry</a>
+                  </h4>
+                  <div class="text">
+                    Stay ahead of the curve and navigate the fast-paced tech
+                    industry with confidence
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature Block -->
+              <div class="feature-block col-lg-4 col-md-6 col-sm-12">
+                <div
+                  class="inner-box wow fadeInRight"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div class="icon flaticon-certificate"></div>
+                  <h4>
+                    <a>Explore opportunities and build your career path</a>
+                  </h4>
+                  <div class="text">
+                    Discover the exciting possibilities in the tech industry and
+                    build a fulfilling career path with guidance and support
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Featured Section -->
+
+      <!-- Choose Section -->
+      <section id="whyUs" class="choose-section">
+        <div
+          class="icon-one"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div
+          class="icon-two"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div class="auto-container">
+          <div class="row clearfix">
+            <!-- Content Column -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <!-- Sec Title -->
+                <div class="sec-title">
+                  <div class="title">Why Choose</div>
+                  <h2>Achieve your goals with the help of a Coding mentor</h2>
+                </div>
+                <div class="text">
+                  Join my online coding tutorials platform and receive
+                  personalized, one-on-one instruction from a seasoned expert in
+                  web development, mobile app development, and cloud computing.
+                  With a unique approach to online learning and a comprehensive
+                  curriculum, you'll receive the tailored guidance and support
+                  you need to advance your career in technology and stay ahead
+                  of the latest industry trends.
+                </div>
+                <div class="row clearfix">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="choose-box">
+                      <div class="box-inner">
+                        <span class="icon flaticon-file"></span>
+                        You can learn anything
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="choose-box">
+                      <div class="box-inner">
+                        <span class="icon flaticon-diploma"></span>
+                        You can achieve anything
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text">
+                  Whether you're a beginner or an experienced developer, our
+                  platform is designed to help you achieve your career goals and
+                  succeed in the competitive tech industry.
+                </div>
+              </div>
+            </div>
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div
+                  class="pattern-one"
+                  style="background-image: url(images/background/pattern-1.png)"
+                ></div>
+                <div class="image titlt" data-tilt data-tilt-max="4">
+                  <img src="images/resource/profile_small.jpg" alt />
+                </div>
+                <div
+                  class="image-two wow fadeInRight"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
+                  <img src="images/resource/computer.jpg" alt />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Choose Section -->
+
+      <!-- Courses Section -->
+      <section id="courses" class="courses-section">
+        <div
+          class="icon-one"
+          style="background-image: url(images/icons/icon-2.png)"
+        ></div>
+        <div
+          class="icon-two"
+          style="background-image: url(images/icons/icon-3.png)"
+        ></div>
+        <div
+          class="icon-three"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div
+          class="icon-four"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div
+          class="icon-five"
+          style="background-image: url(images/icons/icon-2.png)"
+        ></div>
+        <div
+          class="icon-six"
+          style="background-image: url(images/icons/icon-4.png)"
+        ></div>
+        <div class="auto-container">
+          <!-- Sec Title -->
+          <div class="sec-title centered">
+            <div class="title">Our Courses</div>
+            <h2>Best 1:1 Learning Courses</h2>
+          </div>
+          <div class="row clearfix">
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-1.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">Algorithms</a></li>
+                        <li><a href="#">OOP</a></li>
+                        <li><a href="#">Data Structures</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>Introduction to Programming</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-2.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>Introduction to Web Development</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-3.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">Variables</a></li>
+                        <li><a href="#">DOM</a></li>
+                        <li><a href="#">Control Flow</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>JavaScript: The Complete Guide</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-4.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">JSX</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Props & States</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>React JS - The Complete Guide</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-5.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">Layout</a></li>
+                        <li><a href="#">Native API</a></li>
+                        <li><a href="#">Navigation</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>React Native - The Complete Guide</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course Block -->
+            <div class="course-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="image">
+                  <a><img src="images/resource/course-6.jpg" alt /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="content">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <ul class="feature-list">
+                        <li><a href="#">Compute</a></li>
+                        <li><a href="#">Storage</a></li>
+                        <li><a href="#">Networking</a></li>
+                      </ul>
+                    </div>
+                    <h4>
+                      <a>Introduction to AWS Cloud Computing</a>
+                    </h4>
+                    <div class="rating">
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star-o"></span>
+                    </div>
+                  </div>
+                  <div class="lower-box">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="author">
+                        <div class="author-inner">
+                          <span class="author-image">
+                            <img src="images/resource/kutlo.JPG" alt />
+                          </span>
+                          Kutlo Sek
+                        </div>
+                      </div>
+                      <!-- <a class="course-btn" 
+                        >Class Details</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Box -->
+          <!-- <div class="bottom-box text-center">
+            <div class="text">
+              You have access to 1000+ additional advanced courses.
+            </div>
+            <div class="button-box">
+              <a href="courses.html" class="theme-btn btn-style-three"
+                ><span class="txt">View All Course</span></a
+              >
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- End Courses Section -->
+
+      <!-- Skill Section -->
+      <section id="freeLearning" class="skill-section">
+        <div class="auto-container">
+          <div class="row clearfix">
+            <!-- Content Column -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <!-- Sec Title -->
+                <div class="sec-title">
+                  <div class="title">Learn FREE on our YouTube Channel</div>
+                  <h2>100+ Videos</h2>
+                </div>
+                <p>
+                  In addition to our online coding tutorials platform, you can
+                  also take advantage of our popular Koding 101 YouTube channel,
+                  which offers engaging and informative video content to help
+                  you build your coding skills. With a focus on web development,
+                  mobile app development, and cloud computing, you'll be able to
+                  deepen your knowledge, stay up-to-date on industry trends, and
+                  gain a competitive edge in the tech industry.
+                </p>
+                <p>
+                  Whether you prefer a more hands-on learning experience or
+                  prefer to watch and learn, our platform and YouTube channel
+                  provide you with the resources you need to succeed.
+                </p>
+                <ul class="skill-list">
+                  <li>Learn new coding skills, 100% online</li>
+                  <li>Expert Individual instructor</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Blocks Column -->
+            <div class="blocks-column col-lg-6 col-md-12 col-sm-12">
+              <div style="margin-top: 100px" class="inner-column">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MJhsVDpYzQs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/SntCxjIkeHk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skill Section -->
+
+      <!-- Testimonial Section -->
+      <section class="testimonial-section">
+        <!-- <div class="auto-container">
+         =
+          <div class="sec-title centered">
+            <div class="title">Customer Review</div>
+            <h2>Our Successful Best Customers</h2>
+          </div>
+          <div class="three-item-carousel owl-carousel owl-theme">
+          
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+              
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-7.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+                
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-8.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-9.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-7.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+               
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-8.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+             
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-9.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+              
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-7.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+              
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-8.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-block">
+              <div class="inner-box">
+                <div class="text">
+                  Very good training, help me to understand the basics. The
+                  training contains a lot of pract information lorem you need to
+                  be the best runway looks from new york lorem
+                </div>
+                
+                <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-9.jpg" alt />
+                    </div>
+                    <strong>Prashant Yadav</strong>
+                    Online Lecturer and businees
+                    <span class="quote-icon"
+                      ><img src="images/icons/quote-icon.png" alt
+                    /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+      <!-- End Testimonial Section -->
+
+      <!-- News Section -->
+      <section id="articles" class="news-section">
+        <div
+          class="icon-one"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div
+          class="icon-two"
+          style="background-image: url(images/icons/icon-1.png)"
+        ></div>
+        <div class="auto-container">
+          <!-- Sec Title -->
+          <div class="sec-title centered">
+            <div class="title">News And Update</div>
+            <h2>Learn more from our news and article</h2>
+          </div>
+          <div class="row clearfix">
+            <!-- News Block -->
+            <div class="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="inner-box wow fadeInLeft"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="image">
+                  <a
+                    href="https://medium.com/@ksekwamote/simplify-your-code-the-power-of-the-kiss-principle-in-javascript-b9e71d464240"
+                    ><img src="images/blog/kiss principle.png" alt
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="tag">KISS</div>
+
+                  <h5>
+                    <a
+                      href="https://medium.com/@ksekwamote/simplify-your-code-the-power-of-the-kiss-principle-in-javascript-b9e71d464240"
+                      >Simplify Your Code: The Power of the KISS Principle in
+                      JavaScript</a
+                    >
+                  </h5>
+                  <div class="text">
+                    KISS stands for “Keep It Simple, Stupid”. It’s a principle
+                    in software engineering that suggests that systems work...
+                  </div>
+                  <a
+                    class="more-post"
+                    href="https://medium.com/@ksekwamote/simplify-your-code-the-power-of-the-kiss-principle-in-javascript-b9e71d464240"
+                    >Post Details</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- News Block -->
+            <div class="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="inner-box wow fadeInUp"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="image">
+                  <a
+                    href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                    target="_blank"
+                    ><img src="images/blog/deploy_react.png" alt
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="tag">AWS EC2</div>
+
+                  <h5>
+                    <a
+                      href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                      target="_blank"
+                      >How to Point your Domain to your EC2 Instance using Route
+                      53</a
+                    >
+                  </h5>
+                  <div class="text">
+                    Starting and finishing a project can be incredibly easy, but
+                    what most developers miss is the deployment aspect of
+                    things...
+                  </div>
+                  <a
+                    class="more-post"
+                    href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                    target="_blank"
+                    >Post Details</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- News Block -->
+            <div class="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="inner-box wow fadeInRight"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="image">
+                  <a
+                    href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                    target="_blank"
+                    ><img src="images/blog/routers.png" alt
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <div class="tag">REACT ROUTER DOM</div>
+                  <h5>
+                    <a
+                      href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                      target="_blank"
+                      >Protected Routes in React using React Router and a HOC</a
+                    >
+                  </h5>
+                  <div class="text">
+                    Protecting your routes can be an essential part of building
+                    your REACT project...
+                  </div>
+                  <a
+                    class="more-post"
+                    href="https://medium.com/@ksekwamote/protected-routes-in-react-using-react-router-and-a-hoc-d191cfb7c82f"
+                    target="_blank"
+                    >Post Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End News Section -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <div
+          class="pattern-one"
+          style="background-image: url(images/background/pattern-3.png)"
+        ></div>
+        <div
+          class="pattern-two"
+          style="background-image: url(images/icons/icon-2.png)"
+        ></div>
+        <div
+          class="pattern-three"
+          style="background-image: url(images/icons/icon-3.png)"
+        ></div>
+        <!--Waves end-->
+        <div class="auto-container">
+          <!--Widgets Section-->
+          <div class="widgets-section">
+            <div class="row clearfix">
+              <!-- Column -->
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                    <div class="footer-widget logo-widget">
+                      <div class="logo">
+                        <a href><img src="images/logo.png" alt /></a>
+                      </div>
+                      <div class="text">
+                        Whether you're a beginner or an experienced coder, my
+                        comprehensive and user-friendly tutorials will help you
+                        reach your goals in coding. I am committed to being your
+                        go-to source for all your coding needs, and I am eager
+                        to help you succeed.
+                      </div>
+                      <!-- Social Box -->
+                      <ul class="social-box">
+                        <li>
+                          <a
+                            href="http://127.0.0.1:5501/www.facebook.com/ksekwamote"
+                            class="flaticon-facebook"
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/kutlosek/"
+                            class="flaticon-linkedin"
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.youtube.com/@koding_101"
+                            class="flaticon-youtube"
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column -->
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget contact-widget">
+                      <h4>Our Address</h4>
+                      <ul>
+                        <li>
+                          <span class="icon flaticon-technology"></span>
+                          <a href="+26774377626">(+267) 74377626</a><br />
+                        </li>
+                        <li>
+                          <span class="icon flaticon-placeholder"></span>
+                          Cape Town , South Africa
+                        </li>
+                        <li>
+                          <span class="icon flaticon-email"></span>
+                          <a href="mailto:ksekwamote@gmail.com"
+                            >ksekwamote@gmail.com</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget newsletter-widget">
+                      <h4>Newsletter</h4>
+                      <!-- Footer Column -->
+                      <div class="widget-content">
+                        <div class="text">
+                          Subscribe our newsletter to <br />
+                          get the latest news
+                        </div>
+                        <!-- Newsletter Box -->
+                        <div class="newsletter-box">
+                          <form method="post" action="contact.html">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                name="search-field"
+                                value
+                                placeholder="Type your email"
+                                required
+                              />
+                              <button type="submit" class="theme-btn">
+                                Subscribe
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <!-- Column -->
+              <div class="column col-lg-6 col-md-12 col-sm-12">
+                <div class="copyright">Copyright© 2022 All Rights Reserved</div>
+              </div>
+              <!-- Column -->
+              <div class="column col-lg-6 col-md-12 col-sm-12">
+                <div class="text">Koding 101</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <!-- Scroll To Top -->
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+      <span class="fa fa-arrow-up"></span>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/nav-tool.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--[if lt IE 9
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
+    ><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+  </body>
+</html>
